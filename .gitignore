@@ -1,0 +1,20 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+# Build artifacts and dependencies
+**/node_modules/
+**/bin/
+**/obj/
+backend/wwwroot/
+**/data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+**/__pycache__/
+**/test-results/
+**/playwright-report/
+*.log
+.DS_Store

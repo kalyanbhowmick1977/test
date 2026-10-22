@@ -1,0 +1,6 @@
+:root{font-family:Inter,'Segoe UI',Arial,sans-serif;color:#193247;background:#f2f6f8;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}.loading{padding:40px}
+.app-header{display:flex;align-items:center;gap:22px;padding:16px 28px;border-bottom:1px solid #dce5ec;background:white;font-size:13px}
+.app-header a{font-size:17px;font-weight:650;text-decoration:none;color:#087f8c}.app-header>span{color:#61778a}.app-user{margin-left:auto}
+.app-header button{border:1px solid #ccd8e1;background:#fff;color:#193247;padding:7px 15px;border-radius:6px;cursor:pointer}.app-main{padding:22px;max-width:1900px;margin:auto}
+@media(max-width:700px){.app-header{padding:12px;gap:12px}.app-header>span:not(.app-user){display:none}.app-main{padding:8px}}
